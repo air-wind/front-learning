@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 
-const count = ref(0)
-const handelClick = ():void=>{
-  count.value ++
-}
+const count = ref(0);
+const handelClick = (): void => {
+  count.value++;
+};
 </script>
 
 <template>
@@ -24,7 +24,10 @@ const handelClick = ():void=>{
 
   <button @click="handelClick"></button>
   <p>
-    Check out
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda totam
+    harum voluptatum officiis molestias odit at, dolorum voluptas dignissimos
+    aliquam porro eius dolor voluptate suscipit maxime quo! Voluptatibus,
+    laudantium. Rerum.
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
       >create-vue</a
     >, the official Vue + Vite starter
